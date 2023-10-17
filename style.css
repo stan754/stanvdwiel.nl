@@ -1,0 +1,22 @@
+body{
+	background-color: #252525;
+	font-family: Arial, sans-serif;
+	color: white;
+}
+
+.center-screen {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+		text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	padding-left: 5pt;
+	padding-right: 5pt;
+}
